@@ -1,0 +1,11 @@
+header {
+    padding: 50px 0;
+}
+
+h1, h2 { color:#F80D80; }
+
+#langswitcher label.active { background-color: #4cae4c !important; border-color: #449d44 !important;}
+.langcontent.lang-de {display:none;}
+
+
+section {padding-bottom: 25px;}
