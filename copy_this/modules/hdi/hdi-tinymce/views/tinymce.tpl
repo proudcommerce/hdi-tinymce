@@ -99,6 +99,7 @@
 			[{if $cfg->getConfigParam("bTinyMCE_visualblocks")}]visualblocks,[{/if}]
 			[{if $cfg->getConfigParam("bTinyMCE_visualchars")}]visualchars,[{/if}]
 			[{if $cfg->getConfigParam("bTinyMCE_wordcount")}]wordcount,[{/if}]
+			[{if $cfg->getConfigParam("bTinyMCE_responsiveFileManager")}]responsivefilemanager,[{/if}]
 			[{/strip}]"],
 
 			external_plugins: {
@@ -112,6 +113,12 @@
 			toolbar2: "bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | fontselect fontsizeselect formatselect | removeformat | spellchecker",
 			image_advtab: true,
 			menubar: false,
+
+			[{if $cfg->getConfigParam("bTinyMCE_responsiveFileManager")}]
+			external_filemanager_path:"[{$oViewConf->getBaseDir() }]modules/hdi/hdi-tinymce/filemanager/",
+            filemanager_title:"Filemanager" ,
+            external_plugins: { "filemanager" : "../filemanager/plugin.min.js"}
+			[{/if}]
 
 	});
 </script>

@@ -90,6 +90,7 @@
 			array('group' => 'tinyMceSettings', 'name' => 'bTinyMCE_visualblocks', 'type' => 'bool', 'value' => true, 'position' => 39),
 			array('group' => 'tinyMceSettings', 'name' => 'bTinyMCE_visualchars', 'type' => 'bool', 'value' => true, 'position' => 40),
 			array('group' => 'tinyMceSettings', 'name' => 'bTinyMCE_wordcount', 'type' => 'bool', 'value' => true, 'position' => 41),
+			array('group' => 'tinyMceSettings', 'name' => 'bTinyMCE_responsiveFileManager', 'type' => 'bool', 'value' => true, 'position' => 41),
 			/* external plugins */
 			array('group' => 'tinyMceExtPlugins', 'name' => 'aTinyMCE_external_plugins', 'type' => 'aarr', 'value' => '', 'position' => 0),
 			array('group' => 'tinyMceExtPlugins', 'name' => 'sTinyMCE_external_controls', 'type' => 'str', 'value' => '', 'position' => 1),
