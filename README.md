@@ -13,18 +13,6 @@ and here: https://github.com/tinymce
 copy the content of the "copy_this" folder into the shop root directory  
 **if you are uploading files via ftp, set transfer mode to binary mode**
 
-### ssh console + git client
-naviagte to the modules directory in your shop and create the "hdi" folder if you don't have it yet:
-<pre>
-mkdir hdi
-cd hdi
-wget https://raw.github.com/vanilla-thunder/hdi-tinymce/master/copy_this/modules/hdi/vendormetadata.php
-</pre>
-isinde the "hdi" directory:
-<pre>
-git clone -b module https://github.com/vanilla-thunder/hdi-tinymce.git
-</pre>
-
 ### module version 1.1.3 changelog:
 * new editor languages: cs, fr, da, nl, ru, it
 * feature: exclude TinyMCE from plain cms pages
